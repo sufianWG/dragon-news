@@ -1,7 +1,6 @@
-import Image from "next/image";
+import { redirect } from "next/navigation";
 
+const defaultCatId = "01";
 export default function Home() {
-  return (
-    <div>HomePage</div>
-  );
+  redirect(`/category/${defaultCatId}`);
 }
