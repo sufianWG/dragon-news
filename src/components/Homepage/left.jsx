@@ -4,12 +4,12 @@ import React from 'react';
 
 const CateggoryItems = ({ categories, activeId }) => {
     // console.log(categories);
-    console.log(activeId);
+    // console.log(activeId);
     // console.log(typeof(id));
 
     return (
         <div className=''>
-            <h2 className="font-bold text-lg">All categories</h2>
+            <h2 className="font-bold text-lg mb-4">All categories</h2>
             <ul className='space-y-1'>
                 {
                     categories.map(cat => {
