@@ -29,7 +29,7 @@ const NewsCard = ({ categoryNews }) => {
                             <div className='card-header py-3 px-5 bg-gray-200 flex justify-between rounded-tl-md rounded-tr-md'>
                                 <div className='authorinfo flex gap-2 items-center'>
                                     <div className='authorimg'>
-                                        <Image src={n.author?.img} alt={n.author?.name} width={40} height={40} className='rounded-full'></Image>
+                                        <Image src={n.author?.img} width={40} height={40} alt={n.author.name} className='rounded-full'></Image>
                                     </div>
                                     <div className='authorotherinfo'>
                                         <p className='text-base font-semibold'>{n.author?.name}</p>

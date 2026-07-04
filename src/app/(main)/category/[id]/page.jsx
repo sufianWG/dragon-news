@@ -1,5 +1,5 @@
 import CateggoryItems from "@/components/Homepage/left";
-import NewsCard from "@/components/Homepage/NewsCard";
+import NewsCard from "@/components/Homepage/NewsCard/NewsCard";
 import RightSideBar from "@/components/Homepage/RightSideBar";
 import { allCategory, NewsCategoryData } from "@/lib/api";
 
