@@ -4,6 +4,8 @@ Dragon News is a modern news portal built as a practice project using **Next.js 
 
 The main purpose of this project is to practise modern Next.js concepts such as Server Components, dynamic routing, data fetching, route-level loading UI, reusable components, and optimized images.
 
+[Live Link](https://dragon-news-ten-alpha.vercel.app/)
+
 ---
 
 ## ✨ Features
@@ -121,6 +123,11 @@ dragon-news/
 ├── public/
 ├── src/
 │   ├── app/
+│   │   ├── (auth)/
+│   │   │   ├── login/
+│   │   │   │       └── page.jsx
+│   │   │   └── signup/
+│   │   │           └── page.jsx
 │   │   ├── (main)/
 │   │   │   ├── category/
 │   │   │   │   └── [id]/
